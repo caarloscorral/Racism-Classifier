@@ -1,0 +1,14 @@
+@RELATION police-shootings-new-data
+
+@ATTRIBUTE armed {True, False}
+@ATTRIBUTE flee {True, False}
+@ATTRIBUTE body_camera {True, False}
+@ATTRIBUTE threat {True, False}
+@ATTRIBUTE racism {True, False}
+
+@DATA
+False,False,False,False,?
+True,True,True,True,?
+False,True,True,False,?
+False,True,False,True,?
+True,True,True,False,?
